@@ -1,12 +1,12 @@
 grau=int(input("Digite o grau da equação:"))
 
 if grau<1 or grau>2:
-    print("Grau invalido")
+    print("Grau inválido")
 elif grau == 1:
     print("A equação é do primeiro grau")
     a=float(input("Digite o valor de a:"))
     if a==0:
-        print("Valor de a invalido")
+        print("Valor de a inválido")
     else:
         b=float(input("Digite o valor de b:"))
         x=-b/a
@@ -15,7 +15,7 @@ else:
     print("A equação é do segundo grau")
     a=float(input("Digite o valor de a:"))
     if a==0:
-        print("Valor de a invalido")
+        print("Valor de a inválido")
     else:
         b=float(input("Digite o valor de b:"))
         c=float(input("Digite o valor de c:"))
@@ -23,7 +23,7 @@ else:
         if delta<0:
             print("A equação não possui raízes reais")
         elif delta==0:
-            x=-b/2*a
+            x=-b/(2*a)
             print(f"A equação possui apenas uma raiz real: {x:.2f}")
         else:
             x1=(-b + delta**1/2)/(2*a)
