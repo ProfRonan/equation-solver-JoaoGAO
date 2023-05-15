@@ -24,7 +24,7 @@ else:
             print("A equação não possui raízes reais")
         elif delta==0:
             x=-b/(2*a)
-            print(f"A equação possui apenas uma raiz real: {x:.2f}")
+            print(f"A equação possui uma raiz real: {x:.2f}")
         else:
             x1=(-b + delta**1/2)/(2*a)
             x2=(-b - delta**1/2)/(2*a)
